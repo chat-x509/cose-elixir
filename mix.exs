@@ -4,8 +4,8 @@ defmodule COSE.MixProject do
   def project do
     [
       app: :cose,
-      version: "0.1.0",
-      start_permanent: Mix.env() == :prod,
+      version: "0.11.20",
+      description: "COSE  CXC 138 92 CBOR Object Signing and Encryption",
       deps: [
         {:ex_doc, ">= 0.0.0", only: :dev},
         {:b58, "~> 1.0"},
